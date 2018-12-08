@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+}
+
+.flex-container > div {
+    margin: 10px;
+    font-size: 30px;
+  }
+
+  .first-box{
+      flex: 2;
+  }
+
+  .first-box div{
+    background-color: lightblue;
+    margin: 20px;
+  }
+
+  .second-box{
+      flex: 6;
+  }
+
+  .second-box div{
+    background-color: lightgreen;
+    margin: 20px;
+  }
+
+  .first-row-div{
+      height: 300px;
+  }
+
+  .flex-container-buttons{
+      display: flex;
+      justify-content: space-between;
+      padding: initial;
+  }
